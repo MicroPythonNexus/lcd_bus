@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2024 Brad Barnett
+#
+# SPDX-License-Identifier: MIT
+
 from machine import Pin as _Pin
 
 
