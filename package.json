@@ -1,0 +1,12 @@
+{
+    "urls": [
+      ["lib/lcd_bus/__init__.py", "github:bdbarnett/lcd_bus/lcd_bus/__init__.py"],
+      ["lib/lcd_bus/_basebus.py", "github:bdbarnett/lcd_bus/lcd_bus/_basebus.py"],
+      ["lib/lcd_bus/_gpio_data.py", "github:bdbarnett/lcd_bus/lcd_bus/_gpio_data.py"],
+      ["lib/lcd_bus/_gpio_pin.py", "github:bdbarnett/lcd_bus/lcd_bus/_gpio_pin.py"],
+      ["lib/lcd_bus/_i80bus_rp2.py", "github:bdbarnett/lcd_bus/lcd_bus/_i80bus_rp2.py"],
+      ["lib/lcd_bus/_i80bus.py", "github:bdbarnett/lcd_bus/lcd_bus/_i80bus.py"],
+      ["lib/lcd_bus/_spibus.py", "github:bdbarnett/lcd_bus/lcd_bus/_spibus.py"]
+    ],
+    "version": "0.1"
+  }
