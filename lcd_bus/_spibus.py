@@ -116,3 +116,11 @@ class SPIBus(BaseBus):
     def _write(self, data: memoryview, len: int) -> None:
         """ Write data to the SPI bus. """
         self.spi.write(data)
+
+    def deinit(self):
+        """ Deinitialize the SPI bus. """
+        self.spi.deinit()
+        self.dc = None
+        self.cs = None
+        self.spi = None
+        super().deinit()

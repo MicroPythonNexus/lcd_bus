@@ -202,9 +202,14 @@ class BaseBus:
 
     def deinit(self):
         """
-        Deinitialize the bus.  Currently does nothing.
+        Deinitialize the bus.
         """
-        pass
+        self.buf1 = None
+        self.buf2 = None
+        self.callback = None
+        self.swap_bytes = None
+        self.trans_done = None
+        self._swap_enabled = None
     
     def __del__(self):
         """
