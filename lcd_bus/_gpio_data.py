@@ -33,11 +33,11 @@ else:
                 "samd51": (0x41008000, 0x41008080, 0x41008100, 0x41008180),
             },
         },
-        "rp2": {
+        "rp2": {  # See 3.1.11 at https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
             "SET": 0x14,
             "CLR": 0x18,
             "gpios": {
-                "rp2040": (0xD0000000,),
+                "rp2040": (0xD0000000,),  # The SIO registers start at a base address of 0xd0000000 (defined as SIO_BASE in SDK).
             },
         },
         "nrf": {
